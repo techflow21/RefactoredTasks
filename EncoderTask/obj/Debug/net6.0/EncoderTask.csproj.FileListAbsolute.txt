@@ -1,0 +1,15 @@
+C:\Users\HP\Desktop\cSharp-bezaoTasks\EncoderTask\bin\Debug\net6.0\EncoderTask.exe
+C:\Users\HP\Desktop\cSharp-bezaoTasks\EncoderTask\bin\Debug\net6.0\EncoderTask.deps.json
+C:\Users\HP\Desktop\cSharp-bezaoTasks\EncoderTask\bin\Debug\net6.0\EncoderTask.runtimeconfig.json
+C:\Users\HP\Desktop\cSharp-bezaoTasks\EncoderTask\bin\Debug\net6.0\EncoderTask.dll
+C:\Users\HP\Desktop\cSharp-bezaoTasks\EncoderTask\bin\Debug\net6.0\EncoderTask.pdb
+C:\Users\HP\Desktop\cSharp-bezaoTasks\EncoderTask\obj\Debug\net6.0\EncoderTask.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\cSharp-bezaoTasks\EncoderTask\obj\Debug\net6.0\EncoderTask.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\cSharp-bezaoTasks\EncoderTask\obj\Debug\net6.0\EncoderTask.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\cSharp-bezaoTasks\EncoderTask\obj\Debug\net6.0\EncoderTask.AssemblyInfo.cs
+C:\Users\HP\Desktop\cSharp-bezaoTasks\EncoderTask\obj\Debug\net6.0\EncoderTask.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\cSharp-bezaoTasks\EncoderTask\obj\Debug\net6.0\EncoderTask.dll
+C:\Users\HP\Desktop\cSharp-bezaoTasks\EncoderTask\obj\Debug\net6.0\refint\EncoderTask.dll
+C:\Users\HP\Desktop\cSharp-bezaoTasks\EncoderTask\obj\Debug\net6.0\EncoderTask.pdb
+C:\Users\HP\Desktop\cSharp-bezaoTasks\EncoderTask\obj\Debug\net6.0\EncoderTask.genruntimeconfig.cache
+C:\Users\HP\Desktop\cSharp-bezaoTasks\EncoderTask\obj\Debug\net6.0\ref\EncoderTask.dll
