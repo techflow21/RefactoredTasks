@@ -1,10 +1,8 @@
 using System;
 using Class1;
 
-namespace Class1
+public class Class1
 {
-    public class Class1
-    {
         public Dictionary<char, char> dict_one;
         public Dictionary<char, char> dict_two;
         public string result;
@@ -66,5 +64,4 @@ namespace Class1
             return result;
         }
     }
-}
 
