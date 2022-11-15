@@ -13,7 +13,8 @@ namespace Class1
         public Class1()
 
         {
-            dict_one = new Dictionary<char, char>(){
+            dict_one = new Dictionary<char, char>()
+            {
                 {'a',  '£'},  { 'b',  '*'},  { 'c',  '%'},  { 'd',  '&'},
                 { 'e',  '>'},  { 'f',  '<'},  {'g',  '!'},  { 'h',  ')'},
                 {'i',  '\"' }, { 'j',  '('}, { 'k',  '@'},  { 'l',  'a'},
@@ -21,8 +22,8 @@ namespace Class1
                 { 'q',  'f'},  { 'r',  'g'},  { 's',  'h'},  { 't',  'i'},
               { 'u',  'j'},  { 'v',  'k'},  { 'w',  'l'},  { 'x',  'm'},
                 { 'y',  'n'},  {  'z',  'o'}
-
             };
+            
             dict_two = new Dictionary<char, char>()
             {
                 {'£', 'a' }, {'*', 'b'}, {'%', 'c'}, {'&', 'd'}, {'>', 'e'},
@@ -39,12 +40,12 @@ namespace Class1
 
         public static string encrypt1(string word)
         {
-            var myClass = new Class1();
-            string result = myClass.result;
-            Dictionary<char, char> dict_one = myClass.dict_one;
+            var encryptClass = new Class1();
+            string result = encryptClass.result;
+            Dictionary<char, char> dict_one = encryptClass.dict_one;
 
 
-            foreach (char letter in word)
+            foreach (char char_letter in word)
             {
                 result += dict_one[letter];
             }
@@ -52,13 +53,13 @@ namespace Class1
         }
         public static string decrypt1(string word)
         {
-            var myClass = new Class1();
-            string result = myClass.result;
-            Dictionary<char, char> dict_two = myClass.dict_two;
+            var decryptClass = new Class1();
+            string result = decryptClass.result;
+            Dictionary<char, char> dict_two = decryptClass.dict_two;
 
 
 
-            foreach (char letter in word)
+            foreach (char char_letter in word)
             {
                 result += dict_two[letter];
             }
