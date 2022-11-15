@@ -47,7 +47,7 @@ namespace Class1
 
             foreach (char char_letter in word)
             {
-                result += dict_one[letter];
+                result += dict_one[char_letter];
             }
             return result;
         }
@@ -61,7 +61,7 @@ namespace Class1
 
             foreach (char char_letter in word)
             {
-                result += dict_two[letter];
+                result += dict_two[char_letter];
             }
             return result;
         }
