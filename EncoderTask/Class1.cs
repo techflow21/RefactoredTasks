@@ -1,20 +1,19 @@
-﻿using System;
+using System;
 using Class1;
 
 namespace Class1
-//namespace Encrypt_and_Decrypt
 {
     public class Class1
     {
-        public Dictionary<char, char> dict1;
-        public Dictionary<char, char> dict2;
+        public Dictionary<char, char> dict_one;
+        public Dictionary<char, char> dict_two;
         public string result;
         public string key;
 
         public Class1()
 
         {
-            dict1 = new Dictionary<char, char>(){
+            dict_one = new Dictionary<char, char>(){
                 {'a',  '£'},  { 'b',  '*'},  { 'c',  '%'},  { 'd',  '&'},
                 { 'e',  '>'},  { 'f',  '<'},  {'g',  '!'},  { 'h',  ')'},
                 {'i',  '\"' }, { 'j',  '('}, { 'k',  '@'},  { 'l',  'a'},
@@ -24,7 +23,7 @@ namespace Class1
                 { 'y',  'n'},  {  'z',  'o'}
 
             };
-            dict2 = new Dictionary<char, char>()
+            dict_two = new Dictionary<char, char>()
             {
                 {'£', 'a' }, {'*', 'b'}, {'%', 'c'}, {'&', 'd'}, {'>', 'e'},
                 {'<', 'f'}, {'!', 'g'}, {')', 'h'}, {'\"', 'i'}, {'(', 'j'},
@@ -42,12 +41,12 @@ namespace Class1
         {
             var myClass = new Class1();
             string result = myClass.result;
-            Dictionary<char, char> dict1 = myClass.dict1;
+            Dictionary<char, char> dict_one = myClass.dict_one;
 
 
             foreach (char letter in word)
             {
-                result += dict1[letter];
+                result += dict_one[letter];
             }
             return result;
         }
@@ -55,13 +54,13 @@ namespace Class1
         {
             var myClass = new Class1();
             string result = myClass.result;
-            Dictionary<char, char> dict2 = myClass.dict2;
+            Dictionary<char, char> dict_two = myClass.dict_two;
 
 
 
             foreach (char letter in word)
             {
-                result += dict2[letter];
+                result += dict_two[letter];
             }
             return result;
         }
