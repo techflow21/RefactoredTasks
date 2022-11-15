@@ -10,17 +10,17 @@
             if (input?.ToUpper() == "EN")
             {
                 Console.WriteLine("Enter text to encrypt: ");
-                var inputEncrypt = Console.ReadLine();
+                var encryptInput = Console.ReadLine();
 
-                string output = Class1.encrypt1(inputEncrypt);
+                string output = Class1.encrypt1(encryptInput);
                 Console.WriteLine(output);
 
             }
             else if (input?.ToUpper() == "DE")
             {
                 Console.WriteLine("Enter text to decrypt: ");
-                var inputDecrypt = Console.ReadLine();
-                string output = Class1.decrypt1(inputDecrypt);
+                var decryptInput = Console.ReadLine();
+                string output = Class1.decrypt1(decryptInput);
                 Console.WriteLine(output);
             }
             else
